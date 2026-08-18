@@ -1,4 +1,4 @@
-# Portfolio Website (scaffold)
+# Elizabeth Pierburg Portfolio
 
 Files added:
 
@@ -6,12 +6,19 @@ Files added:
 - `styles.css` — simple responsive styles
 - `script.js` — tiny script for year and demo contact handler
 
-How to use
+## Preview locally
 
 1. Open `index.html` in your browser to preview.
 2. Replace placeholder text (Your Name, tagline, project entries, email).
 3. Replace placeholder images with screenshots of your projects.
-4. Hook up the contact form to an email/API or remove the demo handler in `script.js`.
+4. The email link on the homepage opens the visitor's email client.
+
+## Publish with GitHub Pages
+
+1. Push this repository to GitHub.
+2. Open the repository's **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**, then select `main` and `/ (root)`.
+4. Save and wait for GitHub to publish the site. The shareable URL will be `https://<your-github-username>.github.io/<repository-name>/`.
 
  Optional next steps
  
