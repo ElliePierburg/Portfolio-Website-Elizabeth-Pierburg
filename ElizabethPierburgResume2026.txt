@@ -1,0 +1,42 @@
+Elizabeth Pierburg  
+Atlanta, Georgia 30308 • elliepierburg@gmail.com • 678-725-6029  
+EDUCATION   
+Georgia Institute of Technology                                                                                                                    Atlanta, Georgia Bachelor of Mechanical Engineering Major                                                                      Anticipated Graduation May 2027 
+Minor in Computing & Intelligence • Cumulative GPA: 3.96/4.0 
+
+WORK EXPERIENCE   
+Yamaha Motor Manufacturing Corporation	 	 	 	 	 	 	             Newnan, Georgia 
+Robotics/Mechatronics Co-Op	 	 	 	 	 	 	 	 May 2025 to Present 
+• Developed embedded C++ control logic for an automatic brake system, integrating throttle position and motor-speed sensors to actuate brake calipers on Yamaha Golf Cars.
+• Created 100+ Python automated validation tests for infotainment systems across three software platforms, reducing verification effort from approximately 120 to 40 labor-hours.
+• Led AI-assisted CAD automation with Cursor, NX, and Teamcenter to generate 3,000+ standardized component models in one week, expanding Yamaha’s reusable CAD library.
+• Designed, fabricated, and validated Arduino-based test harnesses incorporating motor drivers, sensors, soldered electronics, and vehicle hardware for safety-critical system verification. 
+• Conducted bench- and vehicle-level testing using CAN communication, GPS validation tools, and automated robotic testing platforms, debugging issues through production development. 
+• Led environmental reliability testing of vehicle main switches; designed a 16-channel test harness for simultaneous salt-spray testing and analyzed electrical resistance data to investigate corrosion-related failures. 
+SAFE Robotics Lab 	 	 	 	 	 	 	 	 	 	             Atlanta, Georgia 
+Mobile Manipulator Platform Team 	 	 	 	 	 	 	 	 January 2025 to Present 
+• Integrated mechanical, electrical, and software subsystems for a mobile manipulator platform utilizing NVIDIA Jetson hardware and ROS.
+• Developed and validated ROS-based motion-planning algorithms for coordinated robotic arm and mobile-base operation.
+• Designed and prototyped a 3D-printed rocker pedal for foot-based robot control while supporting system integration with NVIDIA Jetson hardware and ROS-based robotics environments.
+Robo Nav, Robojackets                                                                                                                                  Atlanta, Georgia 
+Project Manager, Mini Rover Challenge | Mechanical Science Member                                               August 2024 to Present  
+• Managed a six-month rover development project for new members, coordinating training, project scheduling, and technical milestones.
+• Designed and manufactured rover components using SolidWorks, additive manufacturing, waterjet cutting, and laser cutting.
+• Collaborated with multidisciplinary teams to integrate mechanical and science subsystems for autonomous mission execution.
+Georgia Institute of Technology, Tutoring & Academic Support                                                               Atlanta, Georgia
+Learning Assistant/Grader, Calculus & Thermodynamics                                                            May 2024 to December 2025 
+• Integrated effective, evidence-based tutoring techniques and strategies to student learning styles and needs. 
+• Assessed assignments and supported course delivery for 100+ students.
+TECHNICAL SKILLS 
+Programming: Python, C++, C. MATLAB, Java, Git
+Robotics & Controls: ROS, Arduino, Sensor Integration, CAN Communications, Embedded Systems
+CAD/Engineering: NX, SolidWorks, Fusion, Simulink, Teamcenter
+Manufacturing: 3D Printing, Water Jetting, Laser Cutting, Mechanical Assembly, Electrical Harness Design
+Testing & Validation: Automated Testing, Hardware Validation, Reliability Testing, Root Cause Analysis 
+AI Productivity Tools: Cursor, GitHub Copilot
+  
+CERTIFICATES AND HONORS 
+• Scrum Master Certified (SSGI), 2026 
+• Zell Miller Scholar   
+• Dean’s List, 2023 to Present
+• Creative Designs and Decisions, Design Award Winner, Fall 2024

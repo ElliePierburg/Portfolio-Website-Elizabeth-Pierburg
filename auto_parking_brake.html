@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Automatic Parking Brake — Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="brand">Elizabeth Pierburg</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="ElizabethPierburgResume2026.pdf">Resume</a></li>
+        <li><a href="https://www.linkedin.com/in/elizabeth-pierburg" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="projects">
+    <section id="overview">
+      <h1>Automatic Parking Brake</h1>
+      <p><strong>Role:</strong> Lead Software Engineer &nbsp; | &nbsp; <strong>Organization:</strong> Yamaha Motor Manufacturing Corporation of America</p>
+      <p><strong>Duration:</strong> June 2026 — Present (Proof of Concept)</p>
+
+      <h2>Project Overview</h2>
+      <p>Developed and tested a proof-of-concept automatic parking brake system capable of electronically actuating the vehicle's brake calipers. The system used an Arduino-based controller, Pololu motor-control hardware, sensors, and custom mechanical/electrical components to decide when to actuate the parking brake and command the actuator.</p>
+
+      <h3>System Architecture</h3>
+      <ul>
+        <li>Inputs: Motor speed sensor, TPS / throttle-position input</li>
+        <li>Controller: Arduino, Pololu motor controller (C/C++)</li>
+        <li>Outputs: Brake calipers via actuator</li>
+        <li>Supporting hardware: Custom motor-control shield, bench-test harness</li>
+      </ul>
+
+      <h3>My Contributions</h3>
+      <h4>Control System Development</h4>
+      <ul>
+        <li>Wrote control logic in C/C++ (Arduino IDE) with sensor polling and interrupt handling.</li>
+        <li>Integrated motor-speed sensor and TPS/accelerometer inputs to decide when to apply parking brake.</li>
+        <li>Implemented fault handling (e.g., overcurrent) and iterated through bench and vehicle testing.</li>
+      </ul>
+
+      <h4>Electrical Hardware</h4>
+      <ul>
+        <li>Soldered and assembled a custom motor-control shield and integrated wiring harness for bench testing.</li>
+        <li>Built the bench-test harness used for development and debugging.</li>
+      </ul>
+
+      <h4>Mechanical / CAD</h4>
+      <ul>
+        <li>Designed brackets, mounts, and sensor mounts in Siemens NX and iterated with 3D-printed prototypes.</li>
+      </ul>
+
+      <h3>Testing & Results</h3>
+      <p>Progressed from component-level bench testing to vehicle integration. The proof-of-concept successfully actuated the vehicle's brake calipers and validated the core control approach. Vehicle testing is ongoing; final production decisions are TBD.</p>
+
+      <h3>Skills & Tools</h3>
+      <p>C/C++, Arduino IDE, Pololu motor controllers, Siemens NX, 3D printing, soldering, bench and vehicle testing, embedded controls.</p>
+
+      <h3>Gallery & Files</h3>
+      <img src="assets/auto_park_1.jpg" alt="Auto Park photo 1" style="max-width:720px;display:block;margin:12px 0">
+      <img src="assets/auto_park_2.jpg" alt="Auto Park photo 2" style="max-width:720px;display:block;margin:12px 0">
+
+      <p><a href="index.html">← Back to projects</a> · <a href="ElizabethPierburgResume2026.pdf" download>Download Resume</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

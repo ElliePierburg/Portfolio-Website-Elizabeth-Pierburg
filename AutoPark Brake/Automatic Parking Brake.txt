@@ -1,0 +1,150 @@
+Automatic Parking Brake
+Project Type: Automotive Mechatronics / Controls
+Organization: Yamaha Motor Manufacturing Corporation of America
+Role: Head Software Engineer
+Date: June 2026-September 2026
+Project Status: Proof of Concept, but towards production currently
+
+Project Overview
+The Problem
+Yamaha is currently using manual brakes and parking brakes while competitors are using electric parking brakes.
+What constraints did the project have?
+The new parking brake had to keep the vehicle at budget which meant any additional cost had to be removed elsewhere. Time was constrained for initial research to POC only had 3 months. And of course, this was safety critical so must be safe.
+
+The Solution
+I developed and tested a proof-of-concept automatic parking brake system capable of electronically actuating the vehicle's brake calipers.
+The system used an Arduino-based control system, motor-control hardware, sensors, and custom mechanical/electrical components to determine when the parking brake should actuate and command the brake mechanism accordingly.
+System Architecture
+Inputs
+* Motor speed sensor
+* TPS / throttle-position input
+Controller
+* Arduino
+* Pololu Motor Controller
+* Control code written in [C/C++]
+
+Outputs
+* Brake calipers
+Supporting Hardware
+* Pololu motor-control hardware
+* Custom motor-control shield
+* Bench-test harness
+
+Blurred because it is not released to the public yet.
+
+
+My Contributions
+1. Control System Development
+Developed the control code used to operate the automatic parking brake system.
+* Wrote control logic in C/C++ using Arduino IDE
+* Implemented an autoparkbrake controller that updated the sensors every loop and then updated the caliper accordingly. Implemented interrupts on the sensor data 
+* Integrated motor-speed sesnsor to only apoply the p[arking brakes near 0 speed
+* Used [TPS / accelerometer / switch] to determine if there was no foot on the gas pedal
+* Faults if the system experiences overcurrent
+* Debugged and modified the control system based on bench and vehicle testing
+
+2. Electrical Hardware
+Designed and assembled the electrical hardware required to control the brake actuator.
+* Soldered the custom motor-control shield
+* Integrated Arduino hardware with the motor controller
+* Connected sensors and vehicle inputs
+* Built a bench-test harness for development and debugging
+* You can see the harness from the image
+* Harness building was great the trouble shooting happened with the code.
+
+3. Mechanical / CAD Development
+Designed and/or modified physical components required to test the system.
+* Created CAD components using Siemens NX
+* Designed [brackets / mounts / adapters / other components]
+* Produced prototypes using 3D printing
+* Created this speed sensor mount to accurate record the hz read by the sensor so it could be converted to km/hr
+4. Testing & Debugging
+Developed a testing process that progressed from individual components to full vehicle testing.
+Bench Testing
+[Describe how you tested the system before installing it on the vehicle.]
+* Tested motor controller and Arduino compatibility
+* Verified sensor inputs
+* Tested brake actuator movement
+* Debugged electrical and software issues
+* [Other testing]
+I am vehicle testing this week so might not want to include it yet
+
+Engineering Challenges
+Challenge 1 — [Title]
+Problem:
+[What went wrong?]
+Investigation:
+[How did you determine the cause?]
+Solution:
+[What did you change?]
+Result:
+[What improved?]
+
+Challenge 2 — [Title]
+Problem:
+[Fill in]
+Investigation:
+[Fill in]
+Solution:
+[Fill in]
+Result:
+[Fill in]
+
+Results
+The completed proof-of-concept system successfully [describe final demonstrated capability].
+Key Results
+* Successfully actuated the vehicle's brake calipers
+* Demonstrated the automatic parking-brake concept on a vehicle
+* Developed and validated the control system
+* Built and tested custom electrical hardware
+* [Quantifiable result — response time, number of test cycles, reliability, etc.]
+* [Other measurable result]
+Final outcome:
+[Was the system approved for further development? Was it handed off? Was it used as the basis for a production system? What happened after your work?]
+
+Technical Skills Demonstrated
+Controls & Programming
+* C/C++
+* Arduino IDE
+* Embedded control logic
+* Sensor integration
+* [Other]
+Electrical
+* Motor control
+* Soldering
+* Circuit integration
+* Electrical debugging
+* [Other]
+Mechanical
+* Siemens NX
+* CAD
+* 3D printing
+* Mechanical prototyping
+* [Other]
+Testing
+* Bench testing
+* Vehicle testing
+* Hardware/software debugging
+* ESD / ESD-safe practices
+* [Other]
+Engineering
+* Mechatronics
+* Automotive systems
+* Safety-critical system development
+* Rapid prototyping
+* System integration
+* Troubleshooting
+
+Project Takeaways
+What I Learned
+[2–4 sentences about what you learned technically.]
+What I Would Improve
+[What would you change if you had more time/resources?]
+Engineering Impact
+[Explain why this project mattered. What did your work enable or demonstrate?]
+
+Project Gallery
+Put pictures in throughout the doc
+
+Project Information
+CategoryDetailsProjectAutomatic Parking BrakeOrganizationYamaha Motor Manufacturing Corporation of AmericaRoleLead softwareDuration3 months to presntTeam Size2My ResponsibilitiesBe head coder and verify system works *I am basically the only one with coding experience at YMMCSoftwareC/C++, Arduino IDE, Visual Studio, Siemens NXHardwareArduino, Pololu motor controller, sensors, custom motor-control shieldManufacturing3D printing, soldering, prototypingTestingBench testing, vehicle testingFinal ResultTBD

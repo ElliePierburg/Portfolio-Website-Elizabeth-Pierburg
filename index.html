@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="brand">Elizabeth Pierburg</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <h1>Elizabeth Pierburg</h1>
+      <p class="tagline">Mechanical Engineer | Robotics | Mechatronics | Autonomous Systems</p>
+      <a class="btn" href="#projects">See my work</a>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p>I’m an engineering student at Georgia Tech focused on mechanical engineering, automation, and robotics. I enjoy working at the intersection of mechanical design, electrical systems, and software, especially when I can take an idea from a concept or CAD model to a working prototype.</p>
+
+        <p>Through my experience with Yamaha Motor Manufacturing, RoboJackets, and robotics projects, I’ve worked on everything from embedded controls and electrical hardware to CAD, prototyping, testing, and system integration. I especially enjoy the problem-solving that happens when a design doesn't work the first time and I have to figure out why.</p>
+
+        <p>My goal is to build a career developing robotic and autonomous systems that combine mechanical, electrical, and software engineering. This portfolio highlights some of the projects and experiences that have shaped the way I approach engineering.</p>
+
+        <p class="links">LinkedIn: <a href="https://www.linkedin.com/in/elizabeth-pierburg" target="_blank" rel="noopener">www.linkedin.com/in/elizabeth-pierburg</a></p>
+      </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="assets/auto_park_1.jpg" alt="Automatic Parking Brake">
+          <h3>Automatic Parking Brake (Proof of Concept)</h3>
+          <p>Lead Software Engineer — Arduino-based automatic parking brake POC for Yamaha Motor Manufacturing. Control logic in C/C++, custom motor-control shield, bench and vehicle testing.</p>
+          <p class="links"><a href="auto_parking_brake.html">Details</a> · <a href="#">Code</a> · <a href="ElizabethPierburgResume2026.pdf" download>Resume</a></p>
+        </article>
+
+        <article class="project-card">
+          <img src="https://via.placeholder.com/600x340" alt="Project screenshot">
+          <h3>Project Title</h3>
+          <p>One-line summary of the project and technologies used.</p>
+          <p class="links"><a href="#">Live</a> · <a href="#">Code</a></p>
+        </article>
+
+        <article class="project-card">
+          <img src="https://via.placeholder.com/600x340" alt="Project screenshot">
+          <h3>Project Title</h3>
+          <p>One-line summary of the project and technologies used.</p>
+          <p class="links"><a href="#">Live</a> · <a href="#">Code</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <label>Name<br>
+          <input type="text" name="name" placeholder="Your name">
+        </label>
+        <label>Email<br>
+          <input type="email" name="email" placeholder="elliepierburg@gmail.com">
+        </label>
+        <label>Message<br>
+          <textarea name="message" rows="4" placeholder="Say hello..."></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+      <p class="contact-note">Or email: <a href="mailto:elliepierburg@gmail.com">elliepierburg@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name — Built with HTML, CSS, JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
