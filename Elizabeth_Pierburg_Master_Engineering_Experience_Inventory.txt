@@ -1,0 +1,178 @@
+Elizabeth Pierburg
+Master Engineering Experience Inventory
+Purpose: Comprehensive source document for future one-page resumes targeted to robotics/mechatronics, mechanical design, electrical/embedded, and software/robotics software.
+Education: Georgia Institute of Technology | B.S. Mechanical Engineering | Minor: Computing & Intelligence | GPA: 3.96/4.00 | Expected Graduation: May 2027
+This inventory preserves the strongest engineering details from the source material while organizing them into resume-ready accomplishments. It is intentionally more comprehensive than a one-page resume.
+Education
+Georgia Institute of Technology - Atlanta, GA
+B.S. Mechanical Engineering | Minor: Computing & Intelligence | GPA: 3.96/4.00 | Expected Graduation: May 2027
+Relevant Coursework: Thermodynamics, Fluid Dynamics, System Dynamics, Machine Learning, Data Structures &
+Algorithms, Electrical Engineering, SolidWorks, Engineering Design, MATLAB
+Engineering Experience
+Yamaha Motor Manufacturing Corporation of America
+Mechatronics Engineer Co-op - Product Development / Mechatronics
+Automatic Parking Brake - Controls & Mechatronics
+Overview: Developed and tested automatic parking brake functionality for Yamaha vehicles as part of a high-priority technology project.
+Contributions
+• Worked on control code for an automatic parking brake system.
+• Integrated a motor speed sensor and TPS/accelerometer switch to determine braking conditions.
+• Developed and assembled a bench-test harness for the system.
+• Soldered and assembled a motor-control shield and Arduino-based testing hardware.
+• Developed CAD models and physical components needed for bench testing.
+• Tested and debugged control code on the bench and on the vehicle.
+• Verified operation of the system by actuating the brake calipers.
+• Supported proof-of-concept testing prior to movement toward production implementation.
+• Worked on a safety-critical automotive/mechatronics system.
+Tools / Technologies: C/C++, Arduino IDE, Visual Studio, NX, Arduino, Pololu motor-control hardware, motor speed sensor, TPS/accelerometer sensor, brake calipers, soldering, crimping, wiring/electronics, 3D printing, ESD protection
+Result
+• Successfully tested the parking-brake control system on a vehicle.
+• Project progressed from proof-of-concept testing toward production implementation.
+Infotainment Automation & Software Testing
+Overview: Developed automated testing for Yamaha vehicle infotainment systems to reduce the time required to validate software functionality.
+Contributions
+• Developed 100+ automated test cases for infotainment-system functionality.
+• Created test cases for system sections such as settings and verified button functionality.
+• Worked with Yamaha's internal automation robot to simulate user interactions and validate screenbehavior.
+• Helped reduce manual testing requirements by automating repetitive validation tasks.
+• Contributed to testing guidelines intended to streamline validation for future models.
+• Designed and 3D-printed stands and fixtures for infotainment testing equipment.
+• Worked largely independently after the originally assigned teammate was redirected to another project.
+Tools / Technologies: Python, Visual Studio Code, CAN, NX, Matt Framework automation robot, GPS testing equipment, fuel-gauge systems, 3D printing
+Result
+• Reduced testing effort from approximately 3 x 40-hour weeks of manual testing to approximately 1 x40-hour week with automation and remaining manual validation.
+• Improved consistency and efficiency of infotainment validation.
+• Established guidelines intended to streamline testing for future vehicle models.
+AI-Assisted Testcase Generation
+Overview: Explored the use of AI-assisted development tools to accelerate software testcase creation while maintaining engineering oversight.
+Contributions
+• Used Cursor AI to analyze an existing manually developed software-testing framework.
+• Provided framework documentation/specifications to the AI tool so it could understand the testingarchitecture and requirements.
+• Used the tool to generate test cases for a different device based on the learned framework andspecification.
+• Reviewed and modified generated code as necessary rather than relying on AI output without validation.
+• Demonstrated that AI could reduce repetitive testcase-writing effort when paired with existing engineeringknowledge.
+Tools / Technologies: Cursor AI, Python, VS Code, existing Yamaha testing framework, PDF specifications Result
+• Generated a complete set of test cases for a new device.
+• Most generated test cases executed successfully with little or no modification.
+• Significantly reduced the time required to create new test cases.
+Resume positioning: Present AI as an engineering productivity tool: you understood the framework, built the original testing system, and then used AI to scale the work.
+Cost Reduction Study
+Overview: Investigated potential opportunities to reduce manufacturing cost while maintaining vehicle functionality and competitiveness.
+Contributions
+• Evaluated vehicle components and systems for potential cost-reduction opportunities.
+• Researched potential changes that could lower component or manufacturing costs.
+• Considered whether proposed changes were technically and economically practical.
+• Eliminated ideas that were not viable.
+Result
+• Helped narrow the list of potential cost-reduction opportunities by identifying concepts that were notpractical.
+Main Switch Warranty / Reliability Investigation
+Overview: Investigated a recurring warranty issue involving vehicle main switches.
+Contributions
+• Investigated failures of vehicle main switches.
+• Designed and assembled test harnesses connecting 16 main switches across four switch types to a powersupply.
+• Conducted environmental testing in a metrology/environmental chamber.
+• Evaluated corrosion behavior and tracked internal resistance over time.
+• Used electrical measurements to characterize switch degradation and failure behavior.
+• Evaluated potential countermeasures based on both reliability improvement and cost.
+Tools / Technologies: Multimeter, internal-resistance measurement equipment, environmental chamber, test harnesses, power supplies
+Result
+• Determined that proposed countermeasures would increase cost substantially without providing enoughquality improvement.
+• Concluded that redesigning the main switch would be a more appropriate long-term solution.
+Battery Reliability & Trickle Charger Study
+Overview: Investigated battery discharge failures occurring while vehicles were stored in warehouses.
+Contributions
+• Investigated battery performance under elevated-temperature storage conditions.
+• Tested different batteries in an oven/environmental chamber.
+• Recorded battery voltage over time to evaluate performance.
+• Researched and selected a trickle-charger solution.
+• Designed/supplied the trickle-charger connection based on an engineering drawing.
+• Supported purchasing and release of required components and documentation.
+Tools / Technologies: Multimeter, environmental/oven chamber, engineering drawings, purchasing systems Result
+• Completed the battery investigation.
+• Supported implementation of a trickle-charger solution for vehicle batteries during storage.
+Standard-Part CAD Generation Using AI
+Overview: Created a large library of standard mechanical components that previously did not exist as CAD models.
+Contributions
+• Led the use of AI-assisted CAD generation for Yamaha standard parts.
+• Developed a workflow using Cursor to generate CAD models for common components.
+• Created models for standard parts such as bolts, nuts, washers, and circlips.
+• Managed and guided the AI workflow rather than simply generating uncontrolled output.
+• Worked with NX and Teamcenter to create and manage the CAD data.
+Tools / Technologies: Cursor AI, Siemens NX, Teamcenter
+Result
+• Generated 3,000+ standard CAD parts in approximately one week.
+
+Robotics Research & Leadership
+SAFE Robotics Lab Mobile Manipulator Platform
+Overview: Contributed to the mechanical design of a robotic platform used for autonomous/manipulator applications.
+Contributions
+• Worked on a robotic platform designed to move boxes.
+• Designed mounting systems for robotic arms.
+• Designed the mounting interface connecting the robot torso to the base.
+• Contributed to mechanical integration of the robotic system.
+Tools / Technologies: SolidWorks, ROS, NVIDIA Jetson Nano, mechanical design, robotics hardware integration
+Rocker Pedal Robot Control Interface
+Overview: Designed a mechanical pedal interface that allowed the robot to be controlled using foot input rather than handheld controllers.
+Contributions
+• Designed a rocker-style pedal mechanism for robot control.
+• Developed the mechanical design in SolidWorks.
+• Designed the pedal to provide sufficient resistance to prevent accidental movement while still allowing abroad range of controlled motion.
+• Manufactured the prototype using 3D printing.
+Tools / Technologies: SolidWorks, 3D printing, mechanical prototyping, robotics
+Additional Robotics Research
+• Participated in spring and summer robotics research.
+• Supported robot design improvements, experimental work, and system development.
+• Gained experience working with ROS and robotic hardware.
+RoboJackets / Georgia Tech Robotics
+• Held leadership responsibilities within Georgia Tech robotics activities.
+• Worked on engineering projects involving robotics, mechanical design, software, and system integration.
+• Contributed to technical development and team operations.
+Relevant Areas: Robotics, mechanical design, CAD, software, controls, systems integration, autonomous systems
+Teaching Experience
+Integral Calculus Learning Assistant - Georgia Institute of Technology
+• Supported approximately 90 students across three semesters.
+• Held weekly office hours.
+• Participated in two one-hour studio sessions each week.
+• Helped students work through calculus problems by encouraging independent attempts before providingguidance.
+• Explained concepts, answered questions, and walked students through solution strategies.
+Thermodynamics Grader - Georgia Institute of Technology
+• Graded thermodynamics coursework for one semester.
+• Reviewed student homework and solutions.
+• Answered student questions regarding assignments and course material.
+• Supported course instruction through grading and student assistance.
+Technical Skills
+Programming: Python, C, C++, MATLAB, ROS, Git
+AI / Software Development: Cursor AI, VS Code, Arduino IDE, Microsoft/Office environment
+CAD / Engineering Design: SolidWorks, Siemens NX, Onshape, Fusion 360, Teamcenter
+Electrical / Embedded: Arduino, microcontrollers, sensor integration, circuit analysis, soldering, crimping, harness design, oscilloscopes, multimeters
+Mechanical / Manufacturing: 3D printing, manual mill, lathe, waterjet, laser cutter, drills & saws
+Engineering / Analysis: MATLAB, Simulink, Excel, testing & validation, experimental design, data collection
+Hardware & Systems Experience
+Sensors: Motor speed sensors, TPS / accelerometer sensors, GPS equipment
+Electronics: Arduino boards, Pololu motor-control hardware, microcontrollers, motors, motor controllers, wiring and harnesses, power supplies
+Robotics: Matt Framework automation robot, NVIDIA Jetson Nano, robotic arms, mobile robot platforms, brake actuators/calipers
+Test Equipment: Multimeters, oscilloscopes, environmental/oven chambers, metrology equipment, electrical resistance measurement equipment
+Core Engineering Strengths
+Mechatronics & Systems Integration: Experience working across mechanical, electrical, and software boundaries rather than staying in one discipline.
+Controls & Embedded Systems: Automatic parking-brake work combines sensors, control logic, Arduino hardware, actuators, testing, and vehicle integration.
+Automation & Testing: Infotainment automation demonstrates process improvement, software validation, measurable time savings, and repeatable testing.
+Mechanical Design & Prototyping: Yamaha fixtures, SAFE Robotics Lab work, CAD, and 3D printing demonstrate hands-on design and fabrication.
+Robotics: SAFE Robotics Lab, RoboJackets, and Yamaha create a coherent robotics/mechatronics story.
+Engineering + AI: AI is positioned as a productivity tool used to accelerate technical work while maintaining engineering judgment and validation.
+Highest-Value Accomplishments for Resume Use
+• Developed 100+ automated infotainment test cases.
+• Reduced testing from approximately 120 hours to approximately 40 hours per validation cycle.
+• Generated 3,000+ standard CAD parts in approximately one week.
+• Worked on automatic parking-brake controls, sensor integration, bench testing, and vehicle validation.
+• Contributed to a safety-critical mechatronics system.
+• Investigated 16 main switches across four switch types in an environmental reliability study.
+• Conducted battery reliability testing and supported a trickle-charger solution.
+• Designed mechanical systems and prototypes for robotics research.
+• Supported approximately 90 calculus students across three semesters.
+• Used AI-assisted development to generate test cases for a new device from an established engineeringframework.
+Source basis: the user's uploaded engineering experience inventory and the cleaned organization derived from it. No new accomplishments were intentionally added beyond that source material.
+Elizabeth Pierburg - Master Engineering Experience Inventory	Page 1
+
+Elizabeth Pierburg - Master Engineering Experience Inventory	Page 1
+
+Elizabeth Pierburg - Master Engineering Experience Inventory	Page 1
+
